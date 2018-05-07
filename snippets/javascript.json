@@ -32,6 +32,15 @@
 		],
 		"description": "An empty Node.js function without triggers, inputs, or outputs"
 	},
+	"EmptyNode Async - JS": {
+		"prefix": "azurefunctions-emptynodeasync-js",
+		"body": [
+			"module.exports = async function (context) {    ",
+			"    context.done();",
+			"};"
+		],
+		"description": "An empty Node.js async function for await, without triggers, inputs, or outputs"
+	},
 
 	"EventHubTrigger - JS": {
 		"prefix": "azurefunctions-eventhubtrigger-js",
